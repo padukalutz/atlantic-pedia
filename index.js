@@ -26,7 +26,7 @@ class AtlanticPedia {
       );
       return response.data;
     } catch (error) {
-      throw new Error(error);
+      throw { error: error.message };
     }
   }
 
@@ -50,7 +50,7 @@ class AtlanticPedia {
       );
       return response.data;
     } catch (error) {
-      throw new Error(error);
+      throw { error: error.message };
     }
   }
 
@@ -72,7 +72,7 @@ class AtlanticPedia {
       );
       return response.data;
     } catch (error) {
-      throw new Error(error);
+      throw { error: error.message };
     }
   }
 
@@ -96,7 +96,7 @@ class AtlanticPedia {
       );
       return response.data;
     } catch (error) {
-      throw new Error(error);
+      throw { error: error.message };
     }
   }
 
@@ -121,7 +121,7 @@ class AtlanticPedia {
       );
       return response.data;
     } catch (error) {
-      throw new Error(error);
+      throw { error: error.message };
     }
   }
 
@@ -142,7 +142,7 @@ class AtlanticPedia {
       );
       return response.data;
     } catch (error) {
-      throw new Error(error);
+      throw { error: error.message };
     }
   }
 
@@ -163,7 +163,7 @@ class AtlanticPedia {
       );
       return response.data;
     } catch (error) {
-      throw new Error(error);
+      throw { error: error.message };
     }
   }
 
@@ -189,7 +189,7 @@ class AtlanticPedia {
       );
       return response.data;
     } catch (error) {
-      throw new Error(error);
+      throw { error: error.message };
     }
   }
 }
